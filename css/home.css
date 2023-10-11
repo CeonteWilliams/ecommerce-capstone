@@ -1,9 +1,8 @@
-float: (
-  responsive: true,
-  property: float,
-  values: (
-    start: left,
-    end: :left,
-    none: none,
-  )
-),
+body{
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+h1{
+  align-items: flex-end;
+  justify-content: right;
+}
