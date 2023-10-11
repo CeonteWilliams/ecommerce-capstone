@@ -30,8 +30,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                        <a class="nav-link" href="#">products</a>
-                        <a class="nav-link" href="#">checkout</a>
+                        <a class="nav-link" href="products.html">products</a>
+                        <a class="nav-link" href="checkout.html">checkout</a>
                         <a class="nav-link" href="reg.html">Register</a>
 
 
@@ -42,27 +42,28 @@
     </header>
     <main>
         <div class="wrapper">
+            <h1>Login</h1>
             <form class="center">
-                <h1>Login</h1>
                 <input type="text" placeholder="username" required>
+                <div class="input-box">
+                    <input type="password" placeholder="password" required>
+                </div>
+        
+                <div class="remember-forgot">
+                    <input type="checkbox"><label> Remember me</label>
+                    
+                    <a href="#">Forgot password?</a>
+                </div>
+        
+        
+                <button type="submit" class="btn btn-dark">Login</button>
+                
+                <div class="register-link">
+                    <p>Dont have an account? <a href="reg.html">Register</a></p>
+                </div>
             </form>
         </div>
-        <div class="input-box">
-            <input type="password" placeholder="password" required>
-        </div>
 
-        <div class="remember-forgot">
-            <label><input type="checkbox"> Remember me
-            </label>
-            <a href="#">Forgot password?</a>
-        </div>
-
-
-        <button type="submit" class="btn btn-dark">Login</button>
-
-        <div class="register-link">
-            <p>Dont have an account?<a href="reg.html">Register</a></p>
-        </div>
     </main>
 
 
